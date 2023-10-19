@@ -1,0 +1,56 @@
+@import url(reset.css);
+* {
+  color: brown;
+}
+p {
+  color: aquamarine;
+}
+.preface {
+  color: yellow;
+}
+
+#bbc-id {
+  color: red;
+}
+a {
+  color: green;
+}
+.preface.block p{
+  color: blue;
+}
+#superfood+p {
+  color: darkblue;
+}
+.block__superfood.block > p{
+  color: blueviolet;
+}
+.block__colorful.block > h2{
+  color: chocolate;
+}
+#superfood.block.block__superfood > p {
+  color: deeppink;
+}
+h2 ~ p {
+  color: lightblue;
+}
+h2 + p {
+color: chartreuse;
+}
+[class*="__img"] > p {
+  color: black;
+}
+[title*="picture"] + p{
+  color: crimson;
+}
+a[href*="facebook.com"] {
+  color: deeppink;
+}
+img+h4{
+  color: darkmagenta;
+}
+h4{
+  color: brown;
+}
+li>a[target*="_blank"]{
+  color: orange;
+}
