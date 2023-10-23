@@ -1,0 +1,287 @@
+@import url(reset.css);
+
+/* google fonts */
+/* @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,1000;1,400;1,600;1,1000&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&display=swap'); */
+/* fonts for web-page */
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&display=swap'); 
+/* 'Alumni Sans Collegiate One' */
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
+/* 'Nosifer' */
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+/* 'Pixelify Sans' */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+/* 'Amatic SC' */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+/* 'Bungee Inline' */
+
+/* fig fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Poppins:wght@300;400;500;600;700&display=swap');
+/* 'Poppins' */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Inter:wght@300;400;500;600;700&display=swap');
+/* 'Inter' */
+/* 2 font families together */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+/* (fig)manual connection of fonts */
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter/AnyConv.com__Inter-Black.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Black.woff") format("woff");
+}
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter/AnyConv.com__Inter-Bold.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-ExtraBold.woff") format("woff");
+}
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter/AnyConv.com__Inter-Medium.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter/AnyConv.com__Inter-Regular.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: Inter;
+    src: url("../fonts/Inter/AnyConv.com__Inter-SemiBold.woff2") format("woff2"),
+    url("../fonts/Inter/Inter-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Black.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-Black.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-BoldItalic.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-Bold.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Light.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-Light.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Medium.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-Medium.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Regular.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-Regular.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-SemiBoldItalic.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-SemiBold.woff") format("woff");
+}
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Thin.woff2") format("woff2"),
+    url("../fonts/Poppins/AnyConv.com__Poppins-Thin.woff") format("woff");
+}
+
+/* підключення вручну */
+@font-face {
+    font-family: IBMPlexSans;
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff2") format("woff2"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IBMPlexSans;
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff2") format("woff2"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: IBMPlexSans;
+    src: url("../fonts/IBMPlexSans/IBMPlexSans-Medium.woff2") format("woff2"),
+        url("../fonts/IBMPlexSans/IBMPlexSans-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Gabarito;
+    src: url("../fonts/Gabarito/Gabarito-Black.woff2") format("woff2"),
+        url("../fonts/Gabarito/Gabarito-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Gabarito;
+    src: url("../fonts/Gabarito/Gabarito-Bold.woff2") format("woff2"),
+        url("../fonts/Gabarito/Gabarito-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Gabarito;
+    src: url("../fonts/Gabarito/Gabarito-ExtraBold.woff2") format("woff2"),
+        url("../fonts/Gabarito/Gabarito-ExtraBold.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Gabarito;
+    src: url("../fonts/Gabarito/Gabarito-Medium.woff2") format("woff2"),
+        url("../fonts/Gabarito/Gabarito-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Gabarito;
+    src: url("../fonts/Gabarito/Gabarito-Regular.woff2") format("woff2"),
+        url("../fonts/Gabarito/Gabarito-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: Gabarito;
+    src: url("../fonts/Gabarito/Gabarito-SemiBold.woff2") format("woff2"),
+        url("../fonts/Gabarito/Gabarito-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+div.paragraph-one {
+    font-family: 'Nunito', sans-serif;
+    color: brown;
+}
+.for-plus + p {
+    color: fuchsia;
+}
+.paragraph-two{
+    font-family: 'Nunito', sans-serif;
+}
+.paragraph-three>p {
+    font-family: IBMPlexSans, sans-serif;
+    color: chartreuse;
+}
+
+.paragraph-four{
+    font-family: IBMPlexSans, sans-serif;
+
+}
+
+.test-fonts .paragraph-five{
+    font-family: 'Kanit', sans-serif;
+    color: aqua;
+
+}
+.paragraph-six{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.paragraph-seven{
+    font-family: 'Gabarito', sans-serif;
+    color: crimson;
+}
+.paragraph-eight{
+    font-family: 'Gabarito', sans-serif;
+}
+.paragraph-nine{
+color: darkgreen;
+}
+.paragraph-ten{
+color: cornflowerblue;
+}
+/* we need fonts for: 
+1).img-div p
+2).container>p
+3)ul li
+4)li>span
+5).footer-div>p
+6).footer-div>a
+7)h1
+ */
+
+li>span {
+    font-family: 'Alumni Sans Collegiate One', sans-serif;
+}
+.footer-div p>a{
+    font-family: 'Lobster', sans-serif;
+    color: darkolivegreen;
+}
+.footer-div>p{
+    font-family: 'Nosifer', sans-serif;
+    color: crimson;
+}
+.cotainer ul{
+    font-family: 'Amatic SC', sans-serif;
+}
+.cotainer ul li {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+.cotainer p{
+    font-family: 'Amatic SC', sans-serif;
+}
+.img-div p{
+    font-family: 'Monoton', sans-serif;
+}
+h1{
+    font-family: 'Bungee Inline', sans-serif;
+}
+div .without>p{
+font-family: 'Nosifer', sans-serif;
+    color: green;
+}
+.fig-content>p{
+    font-family: 'Inter', sans-serif;
+}
+.fig-poppins{
+    font-family: 'Poppins', sans-serif;
+    color: #37393F;
+    font-weight: 600;
+}
+h3.fig-poppins{
+    color: #6B77E5;
+    font-weight: 600;
+}
+div.without>p+p,
+div.without>p+h2,
+div.without>p+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+/* only by layout */
+.only-by-layout{
+    font-style: normal;
+}
+.only-by-layout h2{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 127%; 
+}
+.only-by-layout .fig-content{
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 146.187%;
+}
+.only-by-layout .fig-content>p{
+    font-weight: 400;
+}
+.only-by-layout ul>li,
+.only-by-layout ol>li{
+    font-weight: 500;
+}
